@@ -48,10 +48,22 @@ The last step
 import user number
 n=1
 ---------------------
-         |                _______>__________>________>__________________>_______|
-         v                |                                                     |
-        / \              Yes                                                    |
-      /     \            |                                                      v
+         |   
+         |
+         |                  ________>______________________>_____________________
+         |                 |                                                    |
+         |                Yes                                                   v
+         |                |                                                     |
+         |_<_No_<__does n = i______<_____n=n+1___<____<________                 |
+         |                                                    |                 |
+divide num by 6                                               |                 |
+is there a remander?____no__print "FizzBuss"                  |                 |
+         |                                                    |                 |
+         Yes                                                  |                 |
+         |                                                    |                 |
+         v                                                    |                 |
+        / \                                                   |                 |
+      /     \                                                 |                 v
     /         \_<_No_<__does n = i______<_____n=n+1___<____<__                  |
   / i= given number\                                          |                 |
  divide the number by 2                                       A                 |
